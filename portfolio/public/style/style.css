@@ -1,0 +1,232 @@
+/* background: #a2428e; */
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 { color: #a2482e; text-align: center;}
+h3 { color: #FFA07A; }
+span { color: #FFA07A; }
+.underline { text-decoration: underline; color: white;}
+
+header {
+    background-image: url(../images/Enterprise_NX-01.jpg);
+    /*background-image: url(../images/enter.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right; /*margin: auto;*/
+    /*position: relative;*//*margin: auto;*/
+    
+}
+
+/*
+nav, #ja, #info {
+    border: 1px solid red;
+}
+header{
+    border: 1px solid white;
+}*/
+#wrap{
+    margin: auto;
+    position: relative;
+    max-width: 1050px;
+    /*border: 2px solid yellow;*/
+}
+
+
+
+
+#clear-header{
+    clear: both;
+}
+#ja {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#me{
+    border-radius: 50%;
+}
+
+#info {
+    float: left;
+}
+header nav {
+    text-align: center;
+    background: #ffffff;
+    opacity: 0.7;
+    
+}
+header nav ul {
+    margin: 0;
+    padding: 1em;
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 1em;
+    font-size: 25px;
+}
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+a {
+    color: #a2482e;
+}
+a:hover {
+    color: #333;
+}
+a, a:hover {
+    -o-transition: color 0.25s ease-in;
+    -webkit-transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+}
+/* for fixed menu */
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+
+
+/* ----- info ----- */
+#info {
+	margin-left: 20px;
+    padding: 20px;
+    font-size: 25px;
+    max-width: 100%;
+}
+/* bio table */
+#info table{
+    border-width: 0px;
+    border-collapse: collapse;
+    
+}
+#info table tr td:first-child {
+	width: 250px;
+}
+#info table tr td {
+	padding: 0 5px;
+}
+#info table tr{
+    text-shadow: 0 0 3px #000;
+}
+
+
+
+section {
+    font-size: 20px;
+}
+#biography, #technologies, #profile {
+    padding: 20px;
+    max-width: 1050px;
+    margin: 10px auto;
+    border-bottom: 1px solid white;
+    text-align: justify;
+}
+/* ---- biography ----- */
+#biography {
+    background-image: url(../images/caesar.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+#biography p:nth-child(2){
+    text-align: justify;
+	text-indent: 30px;
+    text-shadow: 0 0 3px #000;
+}
+#biography p:nth-child(3) img{
+    padding: 0 20px;
+}
+
+/* ---- technologies ----- */
+#technologies {
+    background-image: url(../images/chess.png);
+    background-repeat: no-repeat;
+    background-position: top left;   
+    
+}
+
+#technologies p{
+    text-align: justify;
+	text-indent: 30px;
+    text-shadow: 0 0 3px #000;   
+}
+
+
+/* ---- profile ---- */
+#profile {
+    background-image: url(../images/basket.png);
+    background-repeat: no-repeat;
+    background-position: top right;   	
+}
+#profile p{
+	text-indent: 30px;
+    text-shadow: 0 0 3px #000;   	
+}
+
+
+footer{
+    text-align: right;
+    font-size: 14px;
+    padding: 15px;
+}
+
+
+
+/* -------------------------- RESPONSIVE ------------------------ */
+@media screen and (max-width:1120px) {
+    #info {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:928px) {
+    #info {
+        font-size: 15px;
+    }
+    #info table tr td:first-child {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    #info {
+        font-size: 12px;
+    }
+    #info table tr td:first-child {
+        width: 150px;
+    }
+    #me{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:631px) {
+    #info {
+        font-size: 12px;
+    }
+    #info table tr td:first-child {
+        width: 130px;
+    }
+    #me{
+        width: 130px;
+    }
+}
+
+
+
+
+
+
+
+
+
