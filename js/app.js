@@ -41,6 +41,18 @@ $("nav ul li a").click(function(){
         
 });
     
+//resonsive nav   
+$(".mean-nav ul li a").click(function(){
+    var nav = $(this).html().toLowerCase();
+    var posToScroll = $("#"+nav).offset().top;
+    
+    $("html, body").animate({
+        scrollTop: posToScroll-40
+    }, 1000, "linear");        
+        
+});
+    
+    
     
 // portfolio images
 var imagesWork = ["kzm1", "kzm2", "kzm3", "kzm4", "kzm5", "kzm6"];

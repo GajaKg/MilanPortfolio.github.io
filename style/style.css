@@ -94,7 +94,10 @@ a, a:hover {
     z-index: 100;
     border-top: 0;
 }
+.mean-container .mean-bar {
 
+    position: fixed;
+}
 
 
 /* ----- info ----- */
