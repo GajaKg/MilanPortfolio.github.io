@@ -55,12 +55,13 @@ $(".mean-nav ul li a").click(function(){
     
     
 // portfolio images
+    /*
 var imagesWork = ["kzm1", "kzm2", "kzm3", "kzm4", "kzm5", "kzm6"];
 for(var i in imagesWork){
     $("#portfolio").append('<a class="example-image-link" rel="group" data-lightbox="example-1" ' + 
                            'href="images/projekti/kzm/img/'+imagesWork[i]+'.jpg">'+
                            '<img src="images/projekti/kzm/thumbs/'+imagesWork[i]+'.jpg" alt="" class="example-image"></a>');
 }
-    
+    */
     
 });
